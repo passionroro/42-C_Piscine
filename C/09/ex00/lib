@@ -1,0 +1,13 @@
+!<arch>
+libft.a         1629810158  35687 4221  100644  185       `
+#ifndef LIBFT_A
+# define LIBFT_A
+
+void	ft_putchar(char c);
+void	ft_swap(int *a,int *b);
+void	ft_putstr(char *str);
+int		ft_strlen(char *str);
+int		ft_strcmp(char *s1,char *s2);
+
+#endif
+

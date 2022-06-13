@@ -1,0 +1,68 @@
+Liste de fonctions a utiliser:
+
+1/ Le plateau: 
+Il est passe en arguments du programme et peut être n'importe quel caractère
+Utiliser atoi si c'est que des chiffres?
+Pour generer le tableau: ./plato.pl {longueur}{hauteur}{densite}
+On peut le stocker dans un fichier {example_file} : ./plato.c 10 10 1 > example_file
+
+./plato.pl 13 10 2 > example_file | sed '1d' > prebsq_file && gcc premier.c ft_putstr.c && ./a.out
+
+BUT : trouver le x ou le y le plus grand, sans obstacles dans l'aire. :) izzi peazzy salut a tous cest diablox9
+
+
+Put char, putts, strlen...
+Fonction qui cree la map :
+- allouer la place suffisante avec malloc
+- penser a free
+Fonction qui compte :
+- Le nombre de caracteres vides
+- Le nombre d'obstacles
+- le nombre de pleins
+L'aire de la map
+Fonction qui open/close
+
+
+
+
+
+Idee d'algo
+int	ft_carre(int x, int y)
+{
+char **tab
+int	len;
+x = 0;
+y = 0;
+len = 0
+
+calculer len
+
+if (x = len)
+	y++;
+	x = 0;
+if (x = '\0')
+	return (x*y)
+else
+	return (ft_carre(x++, y))
+}
+
+****o
+*o***
+*****
+o**o*
+*****
+
+int	n // stopping index
+
+if (str[i] = '0')
+	y++;
+	x = 0;
+	i = n
+	
+
+*****o
+*****x
+*****x
+*****x
+*****x
+xxoxxx

@@ -1,0 +1,5 @@
+Credentials cache: API:AE4FFF39-C5C1-48FB-B5C6-70E6B658A774
+        Principal: rohoarau@42LAUSANNE.CH
+
+  Issued                Expires               Principal
+Aug  3 19:40:40 2021  Aug  4 05:40:31 2021  krbtgt/42LAUSANNE.CH@42LAUSANNE.CH
